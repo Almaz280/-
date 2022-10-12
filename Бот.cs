@@ -1,6 +1,5 @@
-      
-        static async Task Main()
-        {
+static async Task Main()
+    {
             var builder = new HostBuilder()
                 .ConfigureAppConfiguration(x =>
                 {
@@ -94,4 +93,4 @@
             {
                 await host.RunAsync();
             }
-        }
+    }
